@@ -1,0 +1,52 @@
+$white: #ffffff;
+$blue: #06f;
+$dark_blue: #0062cc;
+$grey: #707070;
+$black: #212529;
+$input_grey: #f3f5fc;
+$light_grey_2: #f0f1f4;
+$light_grey: #ced4da;
+$grey_rgba_opacity: rgba(112,112,112,0.12);
+$red: #d10e0e;
+
+@mixin font32($weight: 400) {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font28($weight: 400) {
+	font-size: 28px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font20($weight: 400) {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font16($weight: 400) {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font15($weight: 400) {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font14($weight: 400) {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: $weight;
+}
+
+@mixin font12($weight: 400) {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: $weight;
+}

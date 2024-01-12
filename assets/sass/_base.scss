@@ -1,0 +1,71 @@
+@import "variables";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@include font16(400);
+	font-family: 'Helvetica', sans-serif;
+	color: $black;
+	background: $white;
+	width: 100%;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+	font-synthesis: none;
+}
+
+input,
+button,
+select,
+label {
+	font-family: 'Helvetica', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+h2 {
+	@include font28(600);
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding-inline: 20px;
+}
+
+.form-group {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.button {
+	@include font16(600);
+	height: 44px;
+	width: 100%;
+	border-radius: 4px;
+	transition: .3s;
+	border: none;
+	cursor: pointer;
+	&.blue {
+		color: $white;
+		background: $blue;
+		&:hover {
+			opacity: .85;
+		}
+	}
+}

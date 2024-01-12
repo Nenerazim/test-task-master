@@ -1,0 +1,1 @@
+export type TableColumn<T = unknown> = {title: string; key: string; format?: (row: T) => string;};
